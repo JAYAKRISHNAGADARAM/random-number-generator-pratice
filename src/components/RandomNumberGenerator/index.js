@@ -8,7 +8,7 @@ class RandomNumberGenerator extends Component {
   }
 
   onClickButton = () => {
-    const randomNumber = Math.ceil(Math.random * 100)
+    const randomNumber = Math.ceil(Math.random() * 100)
     this.setState(prevState => ({count: prevState.count + randomNumber}))
   }
 
