@@ -13,7 +13,7 @@ class RandomNumberGenerator extends Component {
   }
 
   render() {
-    const count = this.state
+    const {count} = this.state
     return (
       <div className="bg-container">
         <div className="container">
