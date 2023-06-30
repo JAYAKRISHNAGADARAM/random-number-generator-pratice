@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-');
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  background-color: box-shadow;
+  height: 100px;
+  width: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main-heading {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  text-align: center;
+  padding: 20px;
+}
+.paragraph {
+  color: #333333;
+  font-family: 'Roboto';
+  text-align: center;
+  padding: 15px;
+}
+.button {
+  background-color: #0b69ff;
+  border-radius: 12px;
+  border-width: 0px;
+  color: #ffffff;
+  margin: 12px;
+}
+.text {
+  color: #0b69ff;
+  text-align: center;
+}
